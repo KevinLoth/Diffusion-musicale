@@ -1,6 +1,7 @@
 $colorOrange: #FF6847;
 $colorGrey: #474646;
 $colorBlack: #2C2C2C;
+$colorWhite: #F7F3EF;
 
 *, ::before, ::after{ 
     margin:0; 
@@ -13,6 +14,7 @@ body{
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr 50px;
+    overflow: hidden;
     main{
         grid-column: 1;
     }
