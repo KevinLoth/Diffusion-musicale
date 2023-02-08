@@ -9,6 +9,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 50px;
+  overflow: hidden;
 }
 body main {
   grid-column: 1;

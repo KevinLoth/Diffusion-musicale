@@ -1,0 +1,10 @@
+$colorWhite: #F7F3EF;
+nav{
+    a{
+        color: $colorWhite;
+        text-decoration: none;
+        display: flex;
+        gap: 6rem;
+        padding: 1rem;
+    }
+}
