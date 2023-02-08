@@ -11,5 +11,12 @@ $colorBlack: #2C2C2C;
 body{
     background-color: $colorBlack;
     height: 100vh;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 50px;
+    main{
+        grid-column: 1;
+    }
+    nav{
+        grid-column: 2;
+    }
 }
