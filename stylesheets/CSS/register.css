@@ -1,0 +1,31 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+main h1 {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+main form {
+  display: flex;
+  flex-direction: column;
+}
+main form label {
+  margin-bottom: 10px;
+}
+main form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #474646;
+  color: #fff;
+}
+main form .submit:hover {
+  background-color: #FF6847;
+}
+
+/*# sourceMappingURL=register.css.map */
