@@ -1,7 +1,8 @@
 <?php 
 $title = "Inscription";
-require "./ressources/services/_database.php";
-require "./ressources/services/_shouldBeLogged.php";
+require __DIR__."/../ressources/services/_database.php";
+require __DIR__."/../ressources/services/_shouldBeLogged.php";
+require __DIR__."/../template/_header.php";
 
 shouldBeLogged(false, "/");
 
@@ -56,10 +57,9 @@ if($_SERVER['REQUEST_METHOD']=="POST" && isset($_POST['inscription']))
     // envoi des données:
     if(empty($error))
     {
-        echo "ok";
         $sql = $db->prepare("INSERT INTO users(name, email, password) VALUES(:name, :email, :password)");
         $sql->execute([":name"=> $username, ":email"=> $email, ":password"=> $password]);
-        // header("Location: /");
+        header("Location: /");
         exit;
     }
 }
@@ -88,6 +88,10 @@ if($_SERVER['REQUEST_METHOD']=="POST" && isset($_POST['inscription']))
         <input type="password" name="passwordVerify" id="passwordVerify">
         <span class="error"><?php echo $error["passwordVerify"]??"" ?></span>
         <br>
-        <input type="submit" value="Inscription" name="inscription">
+        <input type="submit" value="Inscription" name="inscription" class="submit">
     </form>
 </main>
+
+<?php 
+require __DIR__."/../template/_footer.php";
+?>
