@@ -3,6 +3,7 @@ $colorGrey: #474646;
 $colorBlack: #2C2C2C;
 
 main{
+    grid-column: 1;
     display: flex;
     flex-direction: column;
     align-items: center;

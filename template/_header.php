@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="./stylesheets/CSS/main.css">
     <link rel="stylesheet" href="../stylesheets/CSS/register.css">
     <link rel="stylesheet" href="./stylesheets/CSS/nav.css">
-    <link rel="stylesheet" href="../ressources/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="./ressources/node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script src="./ressources/node_modules/@fortawesome/fontawesome-free/js/all.js"></script>
 </head>
 <body>
-
+    <?php require __DIR__.'/_nav.php'; ?>
 
 

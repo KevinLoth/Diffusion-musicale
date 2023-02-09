@@ -1,9 +1,4 @@
-<?php 
 
-require "../Diffusion-musicale/template/_header.php";
-require "../Diffusion-musicale/template/_nav.php";
-
-?>
 <?php 
 # Inclure les routes :
 require "./routes.php";

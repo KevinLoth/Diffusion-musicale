@@ -3,6 +3,11 @@ $colorGrey: #474646;
 $colorBlack: #2C2C2C;
 $colorWhite: #F7F3EF;
 
+@font-face {
+    font-family: "open-sans";
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
 *, ::before, ::after{ 
     margin:0; 
     padding:0; 
@@ -15,10 +20,13 @@ body{
     display: grid;
     grid-template-columns: 1fr 50px;
     overflow: hidden;
+    font-family: "open-sans";
     main{
         grid-column: 1;
+        grid-row: 1;
     }
     nav{
         grid-column: 2;
+        grid-row: 1;
     }
 }
