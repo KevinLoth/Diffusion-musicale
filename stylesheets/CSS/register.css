@@ -27,6 +27,10 @@ main form input {
   border-radius: 5px;
   background-color: #474646;
   color: #fff;
+  border-color: #FF6847;
+}
+main form input:focus {
+  outline: solid #FF6847 2px;
 }
 main form .submit:hover {
   background-color: #FF6847;

@@ -29,6 +29,10 @@ main{
             border-radius: 5px;
             background-color: $colorGrey;
             color: #fff;
+            border-color: $colorOrange;
+        }
+        input:focus{
+            outline: solid $colorOrange 2px;
         }
         .submit:hover{
             background-color: $colorOrange;
