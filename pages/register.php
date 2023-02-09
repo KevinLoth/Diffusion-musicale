@@ -9,6 +9,7 @@ shouldBeLogged(false, "/");
 $error = [];
 $username = $email = $password = "";
 $regex = "/^(?=.*[!?@#$%^&*+-])(?=.*[0-9])(?=.*[A-Z])(?=.*[a-z]).{6,}$/";
+$recaptchaCode = $_POST['g-recaptcha-response']??'';
 
 if($_SERVER['REQUEST_METHOD']=="POST" && isset($_POST['inscription']))
 {
@@ -51,18 +52,55 @@ if($_SERVER['REQUEST_METHOD']=="POST" && isset($_POST['inscription']))
         $error["password"] = "Veuillez saisir à nouveau votre mot de passe";
     else
     {
-        if($_POST["passwordVerify"] != $_POST["passwordVerify"])
+        if($_POST["password"] != $_POST["passwordVerify"])
             $error["passwordVerify"] = "Veuillez saisir le même mot de passe";
     }
     // envoi des données:
+    if(is_null($recaptchaCode) || verifyReCaptcha($recaptchaCode) === false)
+    {
+        $error["recaptcha"] = "Veuillez cocher la case";
+    }
     if(empty($error))
     {
         $sql = $db->prepare("INSERT INTO users(name, email, password) VALUES(:name, :email, :password)");
         $sql->execute([":name"=> $username, ":email"=> $email, ":password"=> $password]);
         header("Location: /");
         exit;
-    }
+    } 
 }
+
+# Fonction de vérification du captcha coté serveur
+function verifyReCaptcha($recaptchaCode)
+{
+    # On crée une requête pour comparer la clé public et la clé privée
+    $postdata = http_build_query(["secret" => "6Lcx1GYkAAAAAKbG57JQJ1p_LuiNpvEqXStsOJcd", "response" => $recaptchaCode]);
+    $opts = [
+        'http' =>
+        [
+            'method'  => 'POST',
+            'header'  => 'Content-type: application/x-www-form-urlencoded',
+            'content' => $postdata
+        ]
+    ];
+    $context  = stream_context_create($opts);
+    # On exécute la requête
+    $result = file_get_contents('https://www.google.com/recaptcha/api/siteverify', false, $context);
+    # On vérifie le résultat
+    $check = json_decode($result);
+    # On retourne le résultat
+    return $check->success;
+}
+# Gestion des données POST
+
+// if(is_null($email) && filter_var($email, FILTER_VALIDATE_EMAIL)
+// && !is_null($recaptchaCode) && verifyReCaptcha($recaptchaCode) === true)
+// {
+//     echo "Merci pour votre inscription";
+// }
+// else
+// {
+//     echo "Erreur lors de l'inscription";
+// }
 
 ?>
 <main>
@@ -72,24 +110,23 @@ if($_SERVER['REQUEST_METHOD']=="POST" && isset($_POST['inscription']))
         <label for="username">Nom d'Utilisateur :</label>
         <input type="text" name="username" id="username">
         <span class="error"> <?php echo $error["username"]??"" ?></span>
-        <br>
         <!-- Email -->
         <label for="email">Adresse Email :</label>
         <input type="email" name="email" id="email">
         <span class="error"><?php echo $error["email"]??"" ?></span>
-        <br>
         <!-- Password -->
         <label for="password">Mot de Passe :</label>
         <input type="password" name="password" id="password">
         <span class="error"><?php echo $error["password"]??"" ?></span>
-        <br>
         <!-- password verify -->
         <label for="passwordVerify">Confirmation du mot de passe :</label>
         <input type="password" name="passwordVerify" id="passwordVerify">
         <span class="error"><?php echo $error["passwordVerify"]??"" ?></span>
-        <br>
+        <div class="g-recaptcha mb-3" data-sitekey="6Lcx1GYkAAAAAPkWuBrzCdi3CCyVgd5jpRVGHHJu"></div>
+        <span class="error"><?php echo $error["recaptcha"]??"" ?></span>
         <input type="submit" value="Inscription" name="inscription" class="submit">
     </form>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </main>
 
 <?php 
