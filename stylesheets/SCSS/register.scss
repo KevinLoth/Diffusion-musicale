@@ -9,6 +9,7 @@ main{
     align-items: center;
     justify-content: center;
     color: #fff;
+    height: 90vh;
     h1{
         margin-top: -50px;
         margin-bottom: 50px;
@@ -16,6 +17,8 @@ main{
     form{
         display: flex;
         flex-direction: column;
+        justify-content: space-evenly;
+        height: 80%;
         label{
             margin-bottom: 10px;
         }

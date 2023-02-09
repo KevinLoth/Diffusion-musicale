@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "open-sans";
+  src: url("../../fonts/OpenSans-Regular.ttf");
+}
 *, ::before, ::after {
   margin: 0;
   padding: 0;
@@ -8,8 +12,10 @@ body {
   background-color: #2C2C2C;
   height: 100vh;
   display: grid;
+  place-content: center;
   grid-template-columns: 1fr 50px;
   overflow: hidden;
+  font-family: "open-sans";
 }
 body main {
   grid-column: 1;
