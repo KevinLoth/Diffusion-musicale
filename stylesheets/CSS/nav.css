@@ -1,9 +1,19 @@
+nav {
+  position: relative;
+  transition: left right 0.3s ease-in-out;
+  height: 100vh;
+  width: 300px;
+  background-color: #474646;
+  text-align: center;
+}
 nav a {
   color: #F7F3EF;
   text-decoration: none;
   display: flex;
-  gap: 6rem;
+  gap: 1rem;
   padding: 1rem;
+  display: grid;
+  grid-template-columns: 50px 1fr;
 }
 
 /*# sourceMappingURL=nav.css.map */
