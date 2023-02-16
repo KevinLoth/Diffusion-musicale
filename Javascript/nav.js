@@ -8,7 +8,7 @@ nav.addEventListener("mouseenter", function(e){
     e.target.style.left = "-250px";
 });
 
-nav.addEventListener("mouseout", function(e){
+nav.addEventListener("mouseleave", function(e){
     e.target.style.left = "0";
 });
 
