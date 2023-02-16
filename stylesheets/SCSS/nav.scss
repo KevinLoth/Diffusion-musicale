@@ -19,4 +19,9 @@ nav{
         display: grid;
         grid-template-columns: 50px 1fr;
     }
+    a:not:first-of-type{
+        border-top: 2px solid $colorBlack;
+    }
+    
+    
 }

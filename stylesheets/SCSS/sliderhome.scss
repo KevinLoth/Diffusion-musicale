@@ -1,0 +1,80 @@
+$colorOrange: #FF6847;
+$colorGrey: #474646;
+$colorBlack: #2C2C2C;
+$colorWhite: #F7F3EF;
+
+main{
+    padding: 1rem;
+    h2, p , img
+    {
+        color: $colorWhite;
+    }
+    .pills-container{
+        display: flex;
+        justify-content: space-evenly;
+        margin: 1rem;
+        width: 120%;
+    }
+    .pills{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid $colorOrange;
+        width: 250px;
+        height: 100px;
+        border-radius: 23px;
+        margin: 1rem;
+
+        img{
+            width: 50%;
+            height: 100%;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+        }
+
+        .pills-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            border-left: 2px solid $colorOrange;
+            width: 50%;
+            height: 100%;
+        }
+    }
+    
+    .card-container
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin: 1rem;
+        width: 120%;
+        .card
+        {
+            width: 250px;
+            height: 250px;
+            border: 2px solid $colorOrange;
+            border-radius: 25px;
+            margin: 1rem;
+            img
+            {
+                width: 100%;
+                height: 50%;
+                border-top-left-radius: 22px;
+                border-top-right-radius: 22px;
+                border-bottom: 2px solid $colorOrange;
+            }
+            .card-content
+            {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                height: 50%;
+            }
+        }
+    }
+
+}
