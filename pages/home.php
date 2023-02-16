@@ -26,5 +26,5 @@
 
 
 <?php 
-    require __DIR__."/../template/_nav.php";
+    require __DIR__."/../template/_footer.php";
 ?>
