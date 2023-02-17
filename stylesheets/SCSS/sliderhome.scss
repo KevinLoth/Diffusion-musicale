@@ -4,7 +4,16 @@ $colorBlack: #2C2C2C;
 $colorWhite: #F7F3EF;
 
 main{
-    padding: 1rem;
+    height: 100%;
+    .musique-scroll::-webkit-scrollbar{
+        width: 0;
+    }
+    .musique-scroll{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        scrollbar-color: rgba(0,0,0,0);
+    }
     h2, p , img
     {
         color: $colorWhite;
@@ -14,6 +23,9 @@ main{
         justify-content: space-evenly;
         margin: 1rem;
         width: 120%;
+        scroll-snap-align: center;
+        flex: 0 0 auto;
+        scrollbar-color: rgba(0,0,0,0);
     }
     .pills{
         display: flex;
@@ -51,6 +63,8 @@ main{
         justify-content: space-evenly;
         margin: 1rem;
         width: 120%;
+        scroll-snap-align: center;
+        flex: 0 0 auto;
         .card
         {
             width: 250px;
@@ -76,5 +90,4 @@ main{
             }
         }
     }
-
 }
