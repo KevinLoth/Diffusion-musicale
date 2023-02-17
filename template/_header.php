@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="./ressources/node_modules/@fortawesome/fontawesome-free/css/all.css">
     <script src="./ressources/node_modules/@fortawesome/fontawesome-free/js/all.js" defer></script>
     <script src="../Javascript/nav.js" defer></script>
+    <script src="../Javascript/scrollcontent.js" defer></script>
 </head>
 <body>
     <?php require __DIR__.'/_nav.php'; ?>
