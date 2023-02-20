@@ -4,3 +4,4 @@
     <a href="#"><i class="fa-solid fa-book"></i> Bibliothèque</a>
     <a href="#"><i class="fa-solid fa-music"></i> Playlist</a>
 </nav>
+
