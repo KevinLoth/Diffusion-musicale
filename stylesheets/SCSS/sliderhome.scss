@@ -50,9 +50,8 @@ main{
         display: flex;
         // justify-content: space-evenly;
         justify-content: flex-start;
-        gap: 2rem;
+        gap: 4rem;
         min-width: 120%;
-        scroll-snap-align: center;
         flex: 0 0 auto;
     }
     .pills{
@@ -88,8 +87,7 @@ main{
         display: flex;
         flex-direction: row;
         // justify-content: space-evenly;
-        gap: 2rem;
-        scroll-snap-align: center;
+        gap: 4rem;
         flex: 0 0 auto;
         .card
         {
