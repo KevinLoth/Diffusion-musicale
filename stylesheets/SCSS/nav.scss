@@ -3,7 +3,7 @@ $colorGrey: #474646;
 $colorBlack: #2C2C2C;
 $colorWhite: #F7F3EF;
 nav{
-    
+    z-index: 1000;
     position: relative;
     transition: all 0.3s ease-in-out;
     height: 100vh;
