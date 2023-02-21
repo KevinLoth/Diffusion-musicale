@@ -1,5 +1,5 @@
-<?php 
-    require __DIR__."/../template/_header.php";
+<?php
+require __DIR__ . "/../template/_header.php";
 ?>
 <main>
     <section>
@@ -8,255 +8,66 @@
             <div class="pills-container">
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
                 <div class="pills">
                     <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="pills">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="pills-content">
-                        <p>Super album/son </p>
-                        <p>Super artiste</p>
-                    </div>
                 </div>
             </div>
         </div>
@@ -264,192 +75,192 @@
         <div class="musique-scroll">
             <div class="card-container">
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -458,203 +269,195 @@
         <div class="musique-scroll">
             <div class="card-container">
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
-                    </div>
-                </div>
-                <div class="card">
-                    <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
-                    <div class="card-content">
-                        <p>Super album/son!</p>
-                        <p>Super artiste</p>
+                    <div class="fit">
+                        <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
+                        <div class="card-content">
+                            <p>Super album/son!</p>
+                            <p>Super artiste</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
 </main>
