@@ -5,5 +5,7 @@ const ROUTES = [
     "register" => "register.php",
     "add_music" => "addmusic.php",
     "sliderhome" => "_sliderhome.php",
+    "login" => "login.php",
+    "logout" => "logout.php",
 ];
 ?>
