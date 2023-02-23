@@ -1,0 +1,37 @@
+$colorOrange: #FF6847;
+$colorGrey: #474646;
+$colorBlack: #2C2C2C;
+$colorWhite: #F7F3EF;
+
+main{
+    .account{
+        padding: 1rem;
+        background-color: $colorGrey;
+        border-radius: 15px;
+        h2{
+            margin-bottom: 2rem;
+        }
+        &>div{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            gap: 4rem;
+            &>div{
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+                a{
+                    text-decoration: none;
+                    color: $colorWhite;
+                    font-weight: 600;
+                    &:hover{
+                        color: $colorOrange;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+}

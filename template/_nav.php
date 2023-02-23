@@ -11,12 +11,12 @@
         <?php 
             if(isset($_SESSION["logged"]))
             {
-                echo "<a href='#'><i class='fa-solid fa-user'></i> Mon compte</a>";
+                echo "<a href='/account'><i class='fa-solid fa-user'></i> Mon compte</a>";
                 echo "<a href='/logout'><i class='fa-solid fa-sign-out'></i> Déconnexion</a>";
             }
             else {
-                echo "<a href='/login'><i class=''></i> Connexion</a>";
-                echo "<a href='/register'><i class='fa-solid fa-user-plus'></i> Inscription</a>";    
+                echo "<a href='/login'><i class='fa-solid fa-user'></i> Connexion</a>";
+                echo "<a href='/register'><i class='fa-solid fa-user-plus'></i> Inscription</a>"; 
             }
                 
         ?>
