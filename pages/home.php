@@ -71,7 +71,7 @@ require __DIR__ . "/../template/_header.php";
                 </div>
             </div>
         </div>
-        <h2> Joué Récemment</h2>
+        <h2> Catégories </h2>
         <div class="musique-scroll">
             <div class="card-container">
                 <div class="card">

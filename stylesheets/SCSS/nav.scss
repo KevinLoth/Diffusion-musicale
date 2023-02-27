@@ -19,10 +19,10 @@ nav{
         padding: 1rem;
         display: grid;
         grid-template-columns: 50px 1fr;
+
+        &:not(first-of-type){
+            border-top: 2px solid $colorBlack;
+        }
     }
-    a:not:first-of-type{
-        border-top: 2px solid $colorBlack;
-    }
-    
     
 }
