@@ -78,8 +78,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -87,8 +86,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -96,8 +94,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -105,8 +102,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -114,8 +110,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -123,8 +118,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -132,8 +126,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -141,8 +134,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -150,8 +142,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -159,8 +150,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -168,8 +158,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -177,8 +166,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -186,8 +174,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -195,8 +182,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -204,8 +190,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -213,8 +198,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -222,8 +206,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -231,8 +214,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -240,8 +222,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -249,8 +230,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
@@ -258,8 +238,7 @@ require __DIR__ . "/../template/_header.php";
                     <div class="fit">
                         <img src="../ressources/images/facebook_cover_photo_1.png" alt="imageAlbum/Sons">
                         <div class="card-content">
-                            <p>Super album/son!</p>
-                            <p>Super artiste</p>
+                            <p>Genre : ?</p>
                         </div>
                     </div>
                 </div>
