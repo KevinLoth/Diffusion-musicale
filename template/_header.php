@@ -12,13 +12,14 @@
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/addMusic.css"> -->
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/account.css"> -->
     <?php 
-        if($url = $_SERVER['REQUEST_URI'] == "/")
+        if($_SERVER['REQUEST_URI'] == "/")
         {
             echo '<link rel="stylesheet" href="./stylesheets/CSS/sliderhome.css">';
         }
         else{
+            $url = $_SERVER['REQUEST_URI'];
             echo '<link rel="stylesheet" href="./stylesheets/CSS'.$url.'.css">';
-            echo $url;
+            var_dump($url);
 
         }
     ?>
@@ -29,3 +30,4 @@
 </head>
 <body>
     <?php require __DIR__.'/_nav.php'; ?>
+
