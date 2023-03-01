@@ -7,5 +7,6 @@ const ROUTES = [
     "login" => "login.php",
     "logout" => "logout.php",
     "account" => "account.php",
+    "search" => "search.php",
 ];
 ?>
