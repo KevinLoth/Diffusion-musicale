@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./stylesheets/CSS/main.css">
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/register.css"> -->
     <link rel="stylesheet" href="./stylesheets/CSS/nav.css">
+    <link rel="stylesheet" href="./stylesheets/CSS/search.css">
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/sliderhome.css"> -->
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/addMusic.css"> -->
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/account.css"> -->
@@ -25,6 +26,7 @@
     <script src="./ressources/node_modules/@fortawesome/fontawesome-free/js/all.js" defer></script>
     <script src="../Javascript/nav.js" defer></script>
     <script src="../Javascript/scrollcontent.js" defer></script>
+    <script src="../Javascript/search.js" defer></script>
 </head>
 <body>
     <?php require __DIR__.'/_nav.php'; ?>

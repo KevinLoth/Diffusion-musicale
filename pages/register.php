@@ -122,6 +122,14 @@ function verifyReCaptcha($recaptchaCode)
         <label for="passwordVerify">Confirmation du mot de passe :</label>
         <input type="password" name="passwordVerify" id="passwordVerify">
         <span class="error"><?php echo $error["passwordVerify"]??"" ?></span>
+        <!-- Checkbox Artist -->
+        <label for="checkboxArtist">
+            Êtes vous un artiste ?
+            <i class="fa-solid fa-square-check"></i>
+        </label>
+        
+        <input type="checkbox" name="checkboxArtist" id="checkboxArtist">
+        <!-- Captcha Google -->
         <div class="g-recaptcha mb-3" data-sitekey="6Lcx1GYkAAAAAPkWuBrzCdi3CCyVgd5jpRVGHHJu"></div>
         <span class="error"><?php echo $error["recaptcha"]??"" ?></span>
         <input type="submit" value="Inscription" name="inscription" class="submit">
