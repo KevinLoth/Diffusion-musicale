@@ -5,7 +5,17 @@
 
     require "./ressources/services/_database.php";
     $db = dbConnect();
-    $sql = $db->prepare("SELECT * FROM users WHERE idUser = :id");
+    var_dump($_SESSION);
+    // Vérifie que l'utilisateur connecté à le rôle artist et récupère les idenfiants de l'utilisateur
+    if($_SESSION["role"] == "artist")
+    {
+        $sql = $db->prepare("SELECT * FROM `artists` WHERE `idArtist` = :id");
+    }
+    else
+    {
+        // Sinon s'il n'a pas le rôle artiste il vérifie sur la table user et récupère s'il y a le compte user.
+        $sql = $db->prepare("SELECT * FROM `users` WHERE `idUser` = :id");
+    }
     $sql->execute([":id"=> $_SESSION["id"]]);
     $user = $sql->fetch();
 ?>
