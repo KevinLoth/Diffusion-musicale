@@ -23,9 +23,9 @@ main form label {
   margin-bottom: 10px;
 }
 main form label svg {
+  margin-left: 2rem;
   font-size: xx-large;
-  width: 100px;
-  margin: 0 1rem;
+  width: 35px;
   cursor: pointer;
 }
 main form input {
@@ -37,7 +37,7 @@ main form input {
   color: #fff;
   border-color: #FF6847;
 }
-main form #checkboxArtist {
+main form #isArtist {
   display: none;
 }
 main form input:focus {

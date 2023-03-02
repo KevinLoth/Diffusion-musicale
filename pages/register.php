@@ -55,14 +55,30 @@ if($_SERVER['REQUEST_METHOD']=="POST" && isset($_POST['inscription']))
         if($_POST["password"] != $_POST["passwordVerify"])
             $error["passwordVerify"] = "Veuillez saisir le même mot de passe";
     }
+    // Checkbox Artist
+    $isArtist = 0;
+
+    if (isset($_POST['isArtist'])) {
+        $isArtist = 1;
+    }
     // envoi des données:
     if(is_null($recaptchaCode) || verifyReCaptcha($recaptchaCode) === false)
     {
         $error["recaptcha"] = "Veuillez cocher la case";
     }
+
     if(empty($error))
     {
-        $sql = $db->prepare("INSERT INTO users(name, email, password) VALUES(:name, :email, :password)");
+        if($isArtist)
+        {
+            $sql = $db->prepare("INSERT INTO artists(name, email, password) VALUES(:name, :email, :password)");
+        }
+        else
+        {
+            $sql = $db->prepare("INSERT INTO users(name, email, password) VALUES(:name, :email, :password)");
+        }
+
+
         $sql->execute([":name"=> $username, ":email"=> $email, ":password"=> $password]);
         header("Location: /");
         exit;
@@ -123,12 +139,13 @@ function verifyReCaptcha($recaptchaCode)
         <input type="password" name="passwordVerify" id="passwordVerify">
         <span class="error"><?php echo $error["passwordVerify"]??"" ?></span>
         <!-- Checkbox Artist -->
-        <label for="checkboxArtist">
-            Êtes vous un artiste ?
-            <i class="fa-solid fa-square-check"></i>
+        <label for="isArtist">
+        Êtes vous un artiste ?
+        <span class="checked">
+            <i class="fa-regular fa-square"></i>
+        </span>
+        <input type="checkbox" name="isArtist" id="isArtist">
         </label>
-        
-        <input type="checkbox" name="checkboxArtist" id="checkboxArtist">
         <!-- Captcha Google -->
         <div class="g-recaptcha mb-3" data-sitekey="6Lcx1GYkAAAAAPkWuBrzCdi3CCyVgd5jpRVGHHJu"></div>
         <span class="error"><?php echo $error["recaptcha"]??"" ?></span>
