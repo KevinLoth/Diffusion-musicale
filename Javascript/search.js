@@ -8,7 +8,6 @@ searchicon.addEventListener("click", expand);
 function expand()
 {
     searchinput.classList.toggle("active-searchbar");
-    console.log("coucou");
 }
 
 

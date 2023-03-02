@@ -27,6 +27,7 @@
     <script src="../Javascript/nav.js" defer></script>
     <script src="../Javascript/scrollcontent.js" defer></script>
     <script src="../Javascript/search.js" defer></script>
+    <script src="../Javascript/login.js" defer></script>
 </head>
 <body>
     <?php require __DIR__.'/_nav.php'; ?>
