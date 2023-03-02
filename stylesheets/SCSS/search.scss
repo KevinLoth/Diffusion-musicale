@@ -9,11 +9,14 @@ $colorWhite: #F7F3EF;
     height: 100%;
     align-items: flex-start;
     gap: 1rem;
+    padding-top: 2rem;
 
     span{
         svg{
             height: 35px;
             margin-top: 4px;
+            color: $colorWhite;
+            padding-left: 1rem;
 
             &:hover{
                 color: $colorOrange;
@@ -23,11 +26,11 @@ $colorWhite: #F7F3EF;
     }
     
     input{
-        padding-left: 1rem;
-        width: 0%;
+        padding: 0 10px 0 15px;
+        width: 0px;
         height: 0px;
+        border: none;
         border-radius: 25px;
-        border: 3px solid $colorBlack;
         transition: width 0.3s linear;
     }
     .active-searchbar{
@@ -35,3 +38,4 @@ $colorWhite: #F7F3EF;
         height: 40px;
     }
 }
+

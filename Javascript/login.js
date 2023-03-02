@@ -3,9 +3,9 @@
 let inputcheck = document.querySelector("input[type=checkbox]");
 let iconcheck = document.querySelector(".checked")
 
-iconcheck.addEventListener("click", check);
+iconcheck.addEventListener("click", checking);
 
-function check()
+function checking()
 {
     if(inputcheck.checked)
     {
