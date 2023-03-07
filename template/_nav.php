@@ -2,7 +2,7 @@
 
     <a href="/"><i class="fa-solid fa-house"></i>Accueil</a>
     <a href="/search"><i class="fa-solid fa-magnifying-glass"></i> Rechercher</a>
-    <a href="#"><i class="fa-solid fa-book"></i> Bibliothèque</a>
+    <a href="/library"><i class="fa-solid fa-book"></i> Bibliothèque</a>
     <div class="nav-account">
         <div class="nav-account-dropdown">
 
