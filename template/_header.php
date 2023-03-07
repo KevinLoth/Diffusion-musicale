@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./stylesheets/CSS/main.css">
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/register.css"> -->
     <link rel="stylesheet" href="./stylesheets/CSS/nav.css">
-    <link rel="stylesheet" href="./stylesheets/CSS/search.css">
+    <!-- <link rel="stylesheet" href="./stylesheets/CSS/search.css"> -->
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/sliderhome.css"> -->
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/addMusic.css"> -->
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/account.css"> -->
