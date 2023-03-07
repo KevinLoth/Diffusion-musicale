@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./stylesheets/CSS/nav.css">
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/search.css"> -->
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/sliderhome.css"> -->
-    <!-- <link rel="stylesheet" href="./stylesheets/CSS/addMusic.css"> -->
+    <!-- <link rel="stylesheet" href="./stylesheets/CSS/add-music.css"> -->
     <!-- <link rel="stylesheet" href="./stylesheets/CSS/account.css"> -->
     <?php 
         if($_SERVER['REQUEST_URI'] == "/")
