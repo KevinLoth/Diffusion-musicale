@@ -8,5 +8,6 @@ const ROUTES = [
     "logout" => "logout.php",
     "account" => "account.php",
     "search" => "search.php",
+    "library" => "library.php",
 ];
 ?>
