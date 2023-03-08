@@ -18,6 +18,7 @@
             
             if(empty($error))
             {
+                // Vérification côté users
                 $db = dbConnect();
                 $sql = $db->prepare("SELECT * FROM users WHERE email = :email");
                 $sql->execute([":email"=> $email]);
@@ -37,14 +38,35 @@
                         exit;
                     }
                     else
-                        $error[] = "Mot de passe incorrect";
+                        $error[] = "Email ou Mot de passe incorrect";
                 }
-            else
-                $error[] = "Email incorrect";
-        }
+                
+                // Vérification côté Artists
+                else 
+                {
+                    $sql = $db->prepare("SELECT * FROM artists WHERE email = :email");
+                    $sql->execute([":email"=> $email]);
+                    $artist = $sql->fetch();
+                    
+                    if($artist)
+                    {
+                        if(password_verify($password, $artist["password"]))
+                        {
+                            $_SESSION["logged"] = true;
+                            $_SESSION["id"] = $artist["idArtist"];
+                            $_SESSION["user"] = $artist["name"];
+                            $_SESSION["email"] = $artist["email"];
+                            $_SESSION["role"] = "artist";
+                            $_SESSION["expire"] = time()+ (60*60);
+                            header("Location: /");
+                            exit;
+                        }
+                        else
+                            $error[] = "Email ou Mot de passe incorrect";
+                    }
+                }
+            }
     }
-
-    
 ?>
 <main>
     <img src="../../ressources/images/logo_transparent.png" width="200px" height="200px" alt="">

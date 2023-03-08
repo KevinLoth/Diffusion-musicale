@@ -17,9 +17,18 @@ main{
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
+        align-items: center;
+        width: 50%;
         height: 80%;
+        border-radius: 10px;
         label{
             margin-bottom: 10px;
+            svg{
+                margin-left: 2rem;
+                font-size: xx-large;
+                width: 35px;
+                cursor: pointer;
+            }
         }
         input{
             margin-bottom: 20px;
@@ -29,6 +38,9 @@ main{
             background-color: $colorGrey;
             color: #fff;
             border-color: $colorOrange;
+        }
+        #isArtist{
+            display: none;
         }
         input:focus{
             outline: solid $colorOrange 2px;

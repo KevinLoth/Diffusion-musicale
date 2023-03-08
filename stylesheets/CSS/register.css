@@ -14,10 +14,19 @@ main form {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
   height: 80%;
+  border-radius: 10px;
 }
 main form label {
   margin-bottom: 10px;
+}
+main form label svg {
+  margin-left: 2rem;
+  font-size: xx-large;
+  width: 35px;
+  cursor: pointer;
 }
 main form input {
   margin-bottom: 20px;
@@ -27,6 +36,9 @@ main form input {
   background-color: #474646;
   color: #fff;
   border-color: #FF6847;
+}
+main form #isArtist {
+  display: none;
 }
 main form input:focus {
   outline: solid #FF6847 2px;

@@ -1,0 +1,52 @@
+$colorOrange: #FF6847;
+$colorGrey: #474646;
+$colorBlack: #2C2C2C;
+$colorWhite: #F7F3EF;
+
+h2{
+    text-align: center;
+    padding-top: 2rem;
+    color: $colorWhite;
+}
+.addMusic-form{
+    display: flex;
+    height: 50%;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    label{
+        height: 50px;
+        text-align: center;
+        svg{
+            height: 100px;
+            width: 100px;
+            margin: 0 1rem;
+            color: $colorWhite;
+            cursor: pointer;
+            &:hover{
+                color: $colorOrange;
+            }
+        }
+    }
+    #uploadedMusic{
+        display: none;
+    }
+    #musicName{
+        border-radius: 20px;
+        height: 30px;
+        padding: 1rem;
+        border: none;
+        box-shadow: 5px 0px 11px 4px rgba(0,0,0,0.5);
+    }
+    input[type="submit"]{
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        border: none;
+        box-shadow: 5px 0px 11px 4px rgba(0,0,0,0.5);
+        &:hover{
+            background-color: $colorOrange;
+            color: $colorWhite;
+        }
+    }
+}
