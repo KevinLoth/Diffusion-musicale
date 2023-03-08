@@ -3,7 +3,7 @@ require __DIR__."/../ressources/services/_database.php";
 require __DIR__."/../ressources/services/_shouldBeLogged.php";
 require __DIR__."/../template/_header.php";
 
-// shouldBeLogged(true, "/");
+shouldBeArtist(true, "/");
 
 $error = $target_file = $target_name = "";
 
@@ -40,7 +40,7 @@ if($_SERVER["REQUEST_METHOD"]=='POST' && isset($_POST['upload']))
             if(move_uploaded_file($_FILES["uploadedMusic"]["tmp_name"], $target_file))
             {
                 $sql = $db->prepare("INSERT INTO musics(name, path) VALUES(:name, :path)");
-                $sql->execute([":name"=> $oldName, ":path"=> $target_dir]);
+                $sql->execute([":name"=> $oldName, ":path"=> $target_dir.$target_name]);
                 $success = "Le fichier a bien été uploadé";
             }
             else
@@ -57,6 +57,20 @@ if($_SERVER["REQUEST_METHOD"]=='POST' && isset($_POST['upload']))
             <i class="fa-solid fa-cloud-arrow-up"></i>
         </label>
         <input type="text" name="musicName" id="musicName" placeholder="Nom de la musique">
+        <label for="albums">Fait elle partie d'un album ?</label>
+        <select name="albums" id="albums">
+            <option value="0">Non</option>
+            <?php 
+                $db = dbConnect();
+                $sql = $db->prepare("SELECT * FROM albums");
+                $sql->execute();
+                $albums = $sql->fetchAll();
+                foreach($albums as $album)
+                {
+                    echo "<option value='".$album["id"]."'>".$album["name"]."</option>";
+                }
+            ?>
+        </select>
         <input type="file" name="uploadedMusic" id="uploadedMusic">
         <input type="submit" value="Envoyer" name="upload">
         <span class="error"><?php echo $error??"" ?></span>

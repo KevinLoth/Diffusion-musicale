@@ -69,19 +69,21 @@
     }
 ?>
 <main>
-    <h2>Connexion</h2>
+    <img src="../../ressources/images/logo_transparent.png" width="200px" height="200px" alt="">
     <form action="" method="post">
-        <label for="email">Email</label>
+        <label for="email" class="emailetmdp">Adresse Email</label>
+        <br>
         <input type="email" name="email" id="email">
         <br>
         <span class="error"><?php echo $error["email"]??""; ?></span>
         <br>
-        <label for="password">Mot de passe</label>
+        <label for="password" class="emailetmdp">Mot de passe</label>
+        <br>
         <input type="password" name="password" id="password">
         <br>
         <span class="error"><?php echo $error["pass"]??""; ?></span>
         <br>
-        <input type="submit" value="Connexion" name="login">
+        <input type="submit" value="Connexion" name="login" class="connexion">
         <br>
         <span class="error"><?php echo $error["login"]??""; ?></span>
     </form>
