@@ -9,5 +9,6 @@ const ROUTES = [
     "account" => "account.php",
     "search" => "search.php",
     "library" => "library.php",
+    "add_album" => "addalbum.php",
 ];
 ?>

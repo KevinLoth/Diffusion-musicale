@@ -14,6 +14,7 @@
                 if($_SESSION["role"] == "artist")
                 {
                     echo "<a href='/add_music'><i class='fa-solid fa-cloud-arrow-up'></i> Ajout de musique</a>";
+                    echo "<a href='/add_album'><i class='fa-solid fa-cloud-arrow-up'></i> Ajout d'album</a>";
                 }
                 echo "<a href='/account'><i class='fa-solid fa-user'></i> Mon compte</a>";
                 echo "<a href='/logout'><i class='fa-solid fa-sign-out'></i> Déconnexion</a>";
