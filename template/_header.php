@@ -21,10 +21,6 @@
         else{
             $url = $_SERVER['REQUEST_URI'];
             echo '<link rel="stylesheet" href="./stylesheets/CSS'.$url.'.css">';
-<<<<<<< HEAD
-
-=======
->>>>>>> 9a850ca623eca5a9281990c7b27584c0cfe1cc17
         }
     ?>
     <link rel="stylesheet" href="./ressources/node_modules/@fortawesome/fontawesome-free/css/all.css">
