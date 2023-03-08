@@ -1,0 +1,44 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2C2C2C;
+    margin-bottom: 400px;
+    .emailetmdp{
+        color: white;
+    }
+    img{
+        margin-bottom: 100px;
+    }
+    #email, #password{
+        width: 20em;
+        height: 30px;
+        margin-top: 10px;
+        background-color: #474646;
+        border: none;
+        border-radius: 5px;
+        padding: 10px;
+        color: #fff;
+    }
+    #password:focus{
+        outline: solid #FF6847 2px;
+    }
+    #email:focus{
+        outline: solid #FF6847 2px;
+    }
+    .connexion{
+        font-weight: bolder;
+        margin-left: 20%;
+        margin-top: 30px;
+        height: 40px;
+        width: 60%;
+        background-color: #474646;
+        border: #FF6847;
+        border-radius: 5px;
+        color: white;
+    }
+    .connexion:hover{
+        background-color: #FF6847;
+    }
+}
